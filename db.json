@@ -1,0 +1,2485 @@
+{
+  "users": [
+    {
+      "email": "test@mofudays.com",
+      "password": "$2a$10$Rd8ZC5h9xZ0H85wcKKu0pOZp/JWk.D.zDKO6Jw4K62yjCfuf.BMuS",
+      "role": "admin",
+      "name": "後台管理員",
+      "nickname": "",
+      "birthday": "2026-02-18",
+      "phone": "0954 086 718",
+      "createdAt": "",
+      "updatedAt": "2026-03-02T02:10:18.237Z",
+      "deletedAt": null,
+      "isLoggedIn": false,
+      "isActive": true,
+      "id": "qa09eyj"
+    },
+    {
+      "email": "amy@mofudays.com",
+      "password": "$2a$10$Iy03YxZTKVqTl9IVd8jTVuqjckX/bFNKwt.hgL3cfOtGbEmzbweN.",
+      "name": "amy",
+      "nickname": "amy",
+      "birthday": "2026-03-02",
+      "phone": "0912345678",
+      "city": "基隆市",
+      "district": "仁愛區",
+      "address": "仁愛路",
+      "role": "user",
+      "createdAt": "2026-03-02T02:11:09.495Z",
+      "updatedAt": "2026-03-06T03:16:57.437Z",
+      "deletedAt": null,
+      "isLoggedIn": false,
+      "isActive": true,
+      "id": "AOChV8M",
+      "avatar": "",
+      "shippingCity": "基隆市",
+      "shippingDistrict": "仁愛區",
+      "shippingAddress": "仁愛路"
+    },
+    {
+      "email": "james@mofudays.com",
+      "password": "$2a$10$J8e2MMSAp298XG9Y8Oi8juK7UQp2Aim/7VDdTtMcbLXsw0A7VJXXu",
+      "name": "james",
+      "nickname": "james",
+      "birthday": "2026-03-06",
+      "phone": "0912345678",
+      "city": "台北市",
+      "district": "中正區",
+      "address": "中正路",
+      "role": "user",
+      "createdAt": "2026-03-06T02:25:31.804Z",
+      "updatedAt": "2026-03-09T13:17:42.941Z",
+      "deletedAt": null,
+      "isLoggedIn": false,
+      "isActive": true,
+      "id": "5pehtNB"
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "id": "MOF20260302-0004",
+      "userId": "5pehtNB",
+      "month": 3,
+      "orderDate": "2026-03-02T01:38:41.337Z",
+      "orderTotalAmount": 799,
+      "currency": "TWD",
+      "paymentStatus": "已付款",
+      "paymentMethod": "transfer",
+      "buyerInfo": {
+        "name": "jameswang",
+        "email": "james@mofudays.com",
+        "phone": "0912345678",
+        "address": "新北市板橋區某條路"
+      },
+      "note": "",
+      "subscriptions": [
+        {
+          "subscriptionId": "MOF20260302-0004-1",
+          "planName": "全方陪伴生活盒",
+          "planPrice": 799,
+          "planQty": 1,
+          "content": {
+            "snacks": [
+              {
+                "treatId": "5eef3045-f72d-4e51-a091-bc0b27dfa1fa",
+                "qty": 1
+              },
+              {
+                "treatId": "b7c4d9e1-2a8f-4d93-8c12-9a1f2e7d4c55",
+                "qty": 1
+              },
+              {
+                "treatId": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+                "qty": 1
+              },
+              {
+                "treatId": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+                "qty": 1
+              }
+            ],
+            "toys": [
+              {
+                "toyId": "2f1b9e5a-6b6a-4e7a-9b33-9d2c6d2a0f3a",
+                "qty": 1
+              },
+              {
+                "toyId": "66f92c40-2829-4bf4-a910-023dd99fa259",
+                "qty": 1
+              },
+              {
+                "toyId": "eec90b15-a45c-4bcb-b093-56b20b0882b2",
+                "qty": 1
+              }
+            ],
+            "household": [
+              {
+                "itemId": "a1c2d3e4-5f60-4b7a-9c8d-0e1f2a3b4c51",
+                "qty": 1
+              },
+              {
+                "itemId": "c3f8a9f1-0a9f-4b92-8b2a-77d0d4d9d3a5",
+                "qty": 1
+              }
+            ]
+          },
+          "currentCycleIndex": 0,
+          "shippingStatus": "待出貨",
+          "shippedDate": "2026-03-05T01:38:41.337Z",
+          "nextShippedDate": "2026-04-05T01:38:41.337Z",
+          "subscriptionStatus": "訂閱中"
+        }
+      ]
+    },
+    {
+      "id": "MOF20260302-0005",
+      "userId": "5pehtNB",
+      "month": 3,
+      "orderDate": "2026-03-02T02:13:27.683Z",
+      "orderTotalAmount": 799,
+      "currency": "TWD",
+      "paymentStatus": "已付款",
+      "paymentMethod": "LINE-Pay",
+      "buyerInfo": {
+        "name": "jameswang",
+        "email": "james@mofudays.com",
+        "phone": "0912345678",
+        "address": "台北市中正區某條路"
+      },
+      "note": "",
+      "subscriptions": [
+        {
+          "subscriptionId": "MOF20260302-0005-1",
+          "planName": "豪華熟齡盒",
+          "planPrice": 799,
+          "planQty": 1,
+          "content": {
+            "snacks": [
+              {
+                "treatId": "b7c4d9e1-2a8f-4d93-8c12-9a1f2e7d4c55",
+                "qty": 1
+              },
+              {
+                "treatId": "5eef3045-f72d-4e51-a091-bc0b27dfa1fa",
+                "qty": 1
+              },
+              {
+                "treatId": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+                "qty": 1
+              },
+              {
+                "treatId": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+                "qty": 1
+              }
+            ],
+            "toys": [
+              {
+                "toyId": "eec90b15-a45c-4bcb-b093-56b20b0882b2",
+                "qty": 1
+              },
+              {
+                "toyId": "2f1b9e5a-6b6a-4e7a-9b33-9d2c6d2a0f3a",
+                "qty": 1
+              },
+              {
+                "toyId": "66f92c40-2829-4bf4-a910-023dd99fa259",
+                "qty": 1
+              }
+            ],
+            "household": [
+              {
+                "itemId": "c3d4e5f6-7081-4d9c-0e1f-2a3b4c5d6e73",
+                "qty": 1
+              },
+              {
+                "itemId": "293a4b5c-d6e7-4c5e-6f70-8192a7b8c9d9",
+                "qty": 1
+              }
+            ]
+          },
+          "currentCycleIndex": 0,
+          "shippingStatus": "待出貨",
+          "shippedDate": "2026-03-05T02:13:27.683Z",
+          "nextShippedDate": "2026-04-05T02:13:27.683Z",
+          "subscriptionStatus": "已取消"
+        }
+      ]
+    },
+    {
+      "id": "MOF20260303-0006",
+      "userId": "5pehtNB",
+      "month": 1,
+      "orderDate": "2026-03-03T02:54:46.744Z",
+      "orderTotalAmount": 399,
+      "currency": "TWD",
+      "paymentStatus": "已付款",
+      "paymentMethod": "transfer",
+      "buyerInfo": {
+        "name": "jameswang",
+        "email": "james@mofudays.com",
+        "phone": "0912345678",
+        "address": "台北市中正區某條路"
+      },
+      "note": "",
+      "subscriptions": [
+        {
+          "subscriptionId": "MOF20260303-0006-1",
+          "planName": "搖尾小日常",
+          "planPrice": 399,
+          "planQty": 1,
+          "content": {
+            "snacks": [
+              {
+                "treatId": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+                "qty": 1
+              }
+            ],
+            "toys": [
+              {
+                "toyId": "2f1b9e5a-6b6a-4e7a-9b33-9d2c6d2a0f3a",
+                "qty": 1
+              }
+            ],
+            "household": [
+              {
+                "itemId": "9593910d-284e-4226-9eb0-9f4bc51f9a9f",
+                "qty": 1
+              }
+            ]
+          },
+          "currentCycleIndex": 0,
+          "shippingStatus": "待出貨",
+          "shippedDate": "2026-03-06T02:54:46.744Z",
+          "nextShippedDate": "2026-04-06T02:54:46.744Z",
+          "subscriptionStatus": "訂閱中"
+        }
+      ]
+    },
+    {
+      "id": "MOF20260306-0007",
+      "userId": "5pehtNB",
+      "month": 6,
+      "orderDate": "2026-03-06T02:27:31.136Z",
+      "orderTotalAmount": 399,
+      "currency": "TWD",
+      "paymentStatus": "已付款",
+      "paymentMethod": "transfer",
+      "buyerInfo": {
+        "name": "jameswang",
+        "email": "james@mofudays.com",
+        "phone": "0912345678",
+        "address": "新北市板橋區板橋路"
+      },
+      "note": "",
+      "subscriptions": [
+        {
+          "subscriptionId": "MOF20260306-0007-1",
+          "planName": "溫暖日常盒",
+          "planPrice": 399,
+          "planQty": 1,
+          "content": {
+            "snacks": [
+              {
+                "treatId": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+                "qty": 1
+              },
+              {
+                "treatId": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+                "qty": 1
+              }
+            ],
+            "toys": [
+              {
+                "toyId": "eec90b15-a45c-4bcb-b093-56b20b0882b2",
+                "qty": 1
+              }
+            ],
+            "household": [
+              {
+                "itemId": "bb629057-deae-4087-aae5-2503f45d3a54",
+                "qty": 1
+              }
+            ]
+          },
+          "currentCycleIndex": 0,
+          "shippingStatus": "待出貨",
+          "shippedDate": "2026-03-09T02:27:31.136Z",
+          "nextShippedDate": "2026-04-09T02:27:31.136Z",
+          "subscriptionStatus": "訂閱中"
+        }
+      ]
+    },
+    {
+      "id": "MOF20260306-0008",
+      "userId": "AOChV8M",
+      "month": 12,
+      "orderDate": "2026-03-06T03:19:35.329Z",
+      "orderTotalAmount": 599,
+      "currency": "TWD",
+      "paymentStatus": "已付款",
+      "paymentMethod": "LINE-Pay",
+      "buyerInfo": {
+        "name": "amyhuang",
+        "email": "amy@mofudays.com",
+        "phone": "0912345678",
+        "address": "桃園市中壢區中壢路"
+      },
+      "note": "",
+      "subscriptions": [
+        {
+          "subscriptionId": "MOF20260306-0008-1",
+          "planName": "互動體驗盒",
+          "planPrice": 599,
+          "planQty": 1,
+          "content": {
+            "snacks": [
+              {
+                "treatId": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+                "qty": 1
+              }
+            ],
+            "toys": [
+              {
+                "toyId": "4588d675-88fa-42d5-bfd0-d51957f8ff5c",
+                "qty": 1
+              },
+              {
+                "toyId": "5a8d7c4e-1b92-4f3a-9e11-0c2d6b9f8a44",
+                "qty": 1
+              }
+            ],
+            "household": [
+              {
+                "itemId": "293a4b5c-d6e7-4c5e-6f70-8192a7b8c9d9",
+                "qty": 1
+              }
+            ]
+          },
+          "currentCycleIndex": 0,
+          "shippingStatus": "待出貨",
+          "shippedDate": "2026-03-09T03:19:35.329Z",
+          "nextShippedDate": "2026-04-09T03:19:35.329Z",
+          "subscriptionStatus": "訂閱中"
+        }
+      ]
+    },
+    {
+      "id": "MOF20260306-0009",
+      "userId": "AOChV8M",
+      "month": 3,
+      "orderDate": "2026-03-06T03:21:00.205Z",
+      "orderTotalAmount": 1198,
+      "currency": "TWD",
+      "paymentStatus": "已付款",
+      "paymentMethod": "LINE-Pay",
+      "buyerInfo": {
+        "name": "amyhuaung",
+        "email": "amy@mofudays.com",
+        "phone": "0912345678",
+        "address": "台北市大同區大同路"
+      },
+      "note": "",
+      "subscriptions": [
+        {
+          "subscriptionId": "MOF20260306-0009-1",
+          "planName": "互動體驗盒",
+          "planPrice": 599,
+          "planQty": 2,
+          "content": {
+            "snacks": [
+              {
+                "treatId": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+                "qty": 1
+              }
+            ],
+            "toys": [
+              {
+                "toyId": "4588d675-88fa-42d5-bfd0-d51957f8ff5c",
+                "qty": 1
+              },
+              {
+                "toyId": "5a8d7c4e-1b92-4f3a-9e11-0c2d6b9f8a44",
+                "qty": 1
+              }
+            ],
+            "household": [
+              {
+                "itemId": "293a4b5c-d6e7-4c5e-6f70-8192a7b8c9d9",
+                "qty": 1
+              }
+            ]
+          },
+          "currentCycleIndex": 0,
+          "shippingStatus": "待出貨",
+          "shippedDate": "2026-03-09T03:21:00.205Z",
+          "nextShippedDate": "2026-04-09T03:21:00.205Z",
+          "subscriptionStatus": "訂閱中"
+        }
+      ]
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "SUB-20260109-0001",
+      "orderId": "MOF20260109-0001",
+      "cartId": "cart_0001",
+      "userId": "32ad2039-0085-4c22-9483-dbecf01ab18c",
+      "dogId": "1fa5ad51-e524-4f44-b8e6-721ace72c5dc",
+      "planId": 1,
+      "planName": "基礎型｜小型幼犬盒",
+      "planContent": {
+        "snacks": [
+          {
+            "treatId": "ca99f802-e303-4389-8222-b09a6085d848",
+            "treatName": "雞肉小軟丁",
+            "qty": 1
+          },
+          {
+            "treatId": "3a186122-aa12-4010-803e-f406ae07f625",
+            "treatName": "魚肉皮毛亮亮點心",
+            "qty": 1
+          }
+        ],
+        "cans": [
+          {
+            "treatId": "2595b29e-6340-4b0d-85ac-09301ea0f52c",
+            "treatName": "腸胃呵護罐（小罐）",
+            "qty": 1
+          }
+        ],
+        "toys": [
+          {
+            "toyId": "4588d675-88fa-42d5-bfd0-d51957f8ff5c",
+            "toyName": "嗅聞墊｜藏食尋寶",
+            "qty": 1
+          },
+          {
+            "toyId": "6c147119-68e1-43c1-888b-6376ee000963",
+            "toyName": "發聲球｜追逐互動",
+            "qty": 1
+          }
+        ]
+      },
+      "subscriptionQuantity": 1,
+      "termCycles": 6,
+      "startDate": "2026-01-15",
+      "currentCycleIndex": 1,
+      "currentCycleTotal": 6,
+      "shippingStatus": "待出貨",
+      "shippedDate": null,
+      "nextShippedDate": "2026-01-15",
+      "subscriptionStatus": "訂閱中",
+      "createdAt": "2026-01-09T18:00:00+08:00",
+      "updatedAt": "2026-01-09T18:00:00+08:00"
+    },
+    {
+      "id": "SUB-20260107-0002-A",
+      "orderId": "MOF20260107-0002",
+      "cartId": "cart_0002",
+      "userId": "07131537-191d-4a6f-92cf-fa5cc31112e5",
+      "dogId": "3eef55b1-e72d-4f8c-b0eb-9f934ac138d2",
+      "planId": 2,
+      "planName": "進階型｜中型成犬盒",
+      "planContent": {
+        "snacks": [
+          {
+            "treatId": "f1e74bb0-abc9-4da9-b649-d6fac63a09cc",
+            "treatName": "牛肉咬咬條",
+            "qty": 2
+          },
+          {
+            "treatId": "3a186122-aa12-4010-803e-f406ae07f625",
+            "treatName": "魚肉皮毛亮亮點心",
+            "qty": 1
+          }
+        ],
+        "cans": [
+          {
+            "treatId": "5eef3045-f72d-4e51-a091-bc0b27dfa1fa",
+            "treatName": "羊肉關節保健罐（小罐）",
+            "qty": 1
+          }
+        ],
+        "toys": [
+          {
+            "toyId": "eec90b15-a45c-4bcb-b093-56b20b0882b2",
+            "toyName": "耐咬繩結｜拔河玩具",
+            "qty": 1
+          }
+        ]
+      },
+      "subscriptionQuantity": 2,
+      "termCycles": 3,
+      "startDate": "2026-01-10",
+      "currentCycleIndex": 2,
+      "currentCycleTotal": 3,
+      "shippingStatus": "已出貨1/3",
+      "shippedDate": "2026-01-10",
+      "nextShippedDate": "2026-02-10",
+      "subscriptionStatus": "訂閱中",
+      "createdAt": "2026-01-07T23:00:00+08:00",
+      "updatedAt": "2026-01-10T12:00:00+08:00"
+    },
+    {
+      "id": "SUB-20260112-0003",
+      "orderId": "MOF20260112-0003",
+      "cartId": "cart_0003",
+      "userId": "b2a987f6-5b9c-4b6f-9a5d-4c2e9fe2d7b1",
+      "dogId": "7d6b6b79-6c7f-4d69-8d2f-5e8a2a2f0b11",
+      "planId": 1,
+      "planName": "基礎型｜小型幼犬盒",
+      "planContent": {
+        "snacks": [
+          {
+            "treatId": "ca99f802-e303-4389-8222-b09a6085d848",
+            "treatName": "雞肉小軟丁",
+            "qty": 2
+          }
+        ],
+        "cans": [
+          {
+            "treatId": "2595b29e-6340-4b0d-85ac-09301ea0f52c",
+            "treatName": "腸胃呵護罐（小罐）",
+            "qty": 1
+          }
+        ],
+        "toys": [
+          {
+            "toyId": "4588d675-88fa-42d5-bfd0-d51957f8ff5c",
+            "toyName": "嗅聞墊｜藏食尋寶",
+            "qty": 1
+          }
+        ]
+      },
+      "subscriptionQuantity": 1,
+      "termCycles": 3,
+      "startDate": "2026-01-20",
+      "currentCycleIndex": 1,
+      "currentCycleTotal": 3,
+      "shippingStatus": "待出貨",
+      "shippedDate": null,
+      "nextShippedDate": "2026-01-20",
+      "subscriptionStatus": "訂閱中",
+      "createdAt": "2026-01-12T10:30:00+08:00",
+      "updatedAt": "2026-01-12T10:30:00+08:00"
+    }
+  ],
+  "dogs": [
+    {
+      "name": "咪咪",
+      "ownerId": "5pehtNB",
+      "gender": "M",
+      "size": "L",
+      "ageLabel": "7 歲以上",
+      "dietStage": "SENIOR",
+      "activityTypes": [
+        "IQ"
+      ],
+      "allergies": [
+        "PORK",
+        "FISH",
+        "CHICKEN"
+      ],
+      "healthCareNeeds": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "id": "YyNGgdh"
+    },
+    {
+      "name": "來福",
+      "ownerId": "5pehtNB",
+      "gender": "F",
+      "size": "L",
+      "ageLabel": "7 歲以上",
+      "dietStage": "SENIOR",
+      "activityTypes": [
+        "WALK"
+      ],
+      "allergies": [
+        "BEEF",
+        "LAMB",
+        "DAIRY"
+      ],
+      "healthCareNeeds": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "id": "V6ApXS5"
+    },
+    {
+      "name": "毛毛",
+      "ownerId": "5pehtNB",
+      "gender": "M",
+      "size": "S",
+      "ageLabel": "1 ～ 3 歲",
+      "dietStage": "ADULT",
+      "activityTypes": [
+        "WALK"
+      ],
+      "allergies": [
+        "CHICKEN",
+        "EGG",
+        "DAIRY"
+      ],
+      "healthCareNeeds": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "id": "W1s4OhQ"
+    },
+    {
+      "name": "嘟嘟",
+      "ownerId": "5pehtNB",
+      "gender": "F",
+      "size": "M",
+      "ageLabel": "4 ～ 6 歲",
+      "dietStage": "ADULT",
+      "activityTypes": [
+        "WALK"
+      ],
+      "allergies": [
+        "CHICKEN",
+        "EGG"
+      ],
+      "healthCareNeeds": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "id": "XLcLnsp"
+    },
+    {
+      "name": "小飛",
+      "ownerId": "AOChV8M",
+      "gender": "M",
+      "size": "S",
+      "ageLabel": "1 ～ 3 歲",
+      "dietStage": "ADULT",
+      "activityTypes": [],
+      "allergies": [
+        "EGG"
+      ],
+      "healthCareNeeds": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "id": "mbQo_27"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "planPrice": 399,
+      "isActive": true,
+      "namePool": [
+        "小小探險家",
+        "嫩嫩咬咬",
+        "初次見面盒",
+        "每日小冒險",
+        "快樂陪伴盒",
+        "搖尾小日常",
+        "毛孩初體驗",
+        "溫暖日常盒",
+        "輕快生活盒",
+        "毛孩新發現",
+        "陪伴起步盒",
+        "日常小確幸",
+        "毛孩開心盒",
+        "輕鬆日用組",
+        "生活小補給",
+        "暖心陪伴組",
+        "毛孩探索盒",
+        "日常好心情",
+        "快樂起跑盒",
+        "生活陪伴盒",
+        "毛孩日常選",
+        "安心入門盒",
+        "小小快樂盒",
+        "毛孩生活感",
+        "溫柔陪伴盒",
+        "日常小驚喜",
+        "輕量陪伴選"
+      ],
+      "subtitle": "入門剛剛好，輕鬆開始每月溫暖。",
+      "content": {
+        "treats": 2,
+        "toys": 1,
+        "household": 1
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2026-02-10T00:00:00+08:00",
+      "updatedAt": "2026-02-10T00:00:00+08:00"
+    },
+    {
+      "id": 2,
+      "planPrice": 599,
+      "isActive": true,
+      "namePool": [
+        "耐咬升級盒",
+        "腦力挑戰盒",
+        "毛孩麻吉盒",
+        "互動探索盒",
+        "活力陪伴盒",
+        "毛孩放電盒",
+        "快樂互動組",
+        "日常升級盒",
+        "毛孩冒險感",
+        "陪玩日常盒",
+        "互動生活盒",
+        "毛孩玩樂選",
+        "探索陪伴盒",
+        "活力生活盒",
+        "毛孩成長盒",
+        "互動升級組",
+        "陪伴進階盒",
+        "日常豐富盒",
+        "毛孩樂活盒",
+        "互動體驗盒",
+        "快樂探索組",
+        "生活玩樂盒",
+        "毛孩互動感",
+        "陪玩升級盒",
+        "日常動感盒",
+        "毛孩活力選",
+        "互動陪伴選"
+      ],
+      "subtitle": "互動與營養更升級，滿足日常所需。",
+      "content": {
+        "treats": 3,
+        "toys": 2,
+        "household": 1
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2026-02-10T00:00:00+08:00",
+      "updatedAt": "2026-02-10T00:00:00+08:00"
+    },
+    {
+      "id": 3,
+      "planPrice": 799,
+      "isActive": true,
+      "namePool": [
+        "全方位守護盒",
+        "豪華熟齡盒",
+        "旗艦養生盒",
+        "全方陪伴生活盒",
+        "毛孩尊寵日常盒",
+        "完整照護陪伴盒",
+        "旗艦級陪伴選盒",
+        "毛孩豪華生活盒",
+        "全配照顧選盒",
+        "尊寵陪伴日常盒",
+        "高規格生活選盒",
+        "毛孩全能陪伴盒",
+        "旗艦生活體驗盒",
+        "完整陪伴方案盒",
+        "毛孩頂級日常盒",
+        "豪華陪伴生活盒",
+        "毛孩尊榮陪伴盒",
+        "全能照護日常盒",
+        "旗艦尊寵生活盒",
+        "毛孩豪華陪伴盒",
+        "完整配備生活盒",
+        "頂級陪伴體驗盒",
+        "尊寵陪伴盒組",
+        "旗艦日常套組",
+        "完整陪伴方案",
+        "毛孩全方位陪伴盒",
+        "高規格生活組"
+      ],
+      "subtitle": "最完整配置，給毛孩滿滿的照顧與陪伴。",
+      "content": {
+        "treats": 4,
+        "toys": 3,
+        "household": 2
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2026-02-10T00:00:00+08:00",
+      "updatedAt": "2026-02-10T00:00:00+08:00"
+    }
+  ],
+  "toys": [
+    {
+      "id": "4588d675-88fa-42d5-bfd0-d51957f8ff5c",
+      "toyName": "嗅聞墊｜藏食尋寶",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "playStyle": [
+        "IQ"
+      ],
+      "isActive": true,
+      "description": "提升嗅覺探索與腦力消耗，適合室內放電。",
+      "createdAt": "2025-09-11T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "eec90b15-a45c-4bcb-b093-56b20b0882b2",
+      "toyName": "耐咬繩結｜拔河玩具",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "playStyle": [
+        "BITE",
+        "WALK"
+      ],
+      "isActive": true,
+      "description": "適合拔河互動與咬咬釋放壓力，注意磨損即汰換。",
+      "createdAt": "2025-06-23T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "6c147119-68e1-43c1-888b-6376ee000963",
+      "toyName": "發聲球｜追逐互動",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "playStyle": [
+        "WALK"
+      ],
+      "isActive": true,
+      "description": "彈跳與聲響增加追逐樂趣，適合戶外或大空間。",
+      "createdAt": "2025-10-21T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "66f92c40-2829-4bf4-a910-023dd99fa259",
+      "toyName": "慢食漏食球｜腦力放電",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "playStyle": [
+        "IQ"
+      ],
+      "isActive": true,
+      "description": "透過滾動漏食延長進食時間，減少狼吞虎嚥。",
+      "createdAt": "2025-04-24T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "9f1f1d6a-2f28-4ac2-9a1b-2b8b2b1f5d51",
+      "toyName": "耐咬橡膠骨｜潔牙互動",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "橡膠材質耐咬，表面紋路可輔助潔牙。",
+      "createdAt": "2025-12-18T20:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "2f1b9e5a-6b6a-4e7a-9b33-9d2c6d2a0f3a",
+      "toyName": "綜合互動玩具｜嗅聞×拉扯×追逐",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "playStyle": [
+        "IQ",
+        "BITE",
+        "WALK"
+      ],
+      "isActive": true,
+      "description": "一款涵蓋三種互動方式的綜合玩具。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "a91e7c4d-2b6f-4d18-9c31-7f2d8e1a4b90",
+      "toyName": "耐咬橡膠啃咬球",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "適合咀嚼與拋接互動的耐用玩具。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "c2f7b1a9-9e4d-4c3a-8b71-2a4d9c1e6f11",
+      "toyName": "柔軟布繩拉拉玩具",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "適合與主人互動拉扯，材質柔軟不傷牙。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "7e3a9c1d-4b8f-4e6a-9d22-6f1b2a8c5d33",
+      "toyName": "益智藏食翻翻盤",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "IQ"
+      ],
+      "isActive": true,
+      "description": "提升腦力活動的益智互動玩具。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "5a8d7c4e-1b92-4f3a-9e11-0c2d6b9f8a44",
+      "toyName": "發聲啃咬骨",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "內建發聲設計，提升玩樂吸引力。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "9f1a2c7b-6d8e-4a3f-8c21-5e4b9d0a3f55",
+      "toyName": "拋接飛盤玩具",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "WALK"
+      ],
+      "isActive": true,
+      "description": "適合戶外拋接運動，增加活動量。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "4d8b1c2e-7f9a-4c6e-9a31-3e2f5c9b6d66",
+      "toyName": "安撫布偶玩具",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "playStyle": [
+        "IQ"
+      ],
+      "isActive": true,
+      "description": "柔軟材質，提供幼犬安全感。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "6b2f9c8e-1d4a-4b7e-9f22-8a5d3c1e0b77",
+      "toyName": "多結耐拉繩",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "多結設計，適合咬拉與互動遊戲。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "1e5c9b7d-8a4f-4e6b-9c12-2d0f3a8b4e88",
+      "toyName": "滾動漏食玩具",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "IQ"
+      ],
+      "isActive": true,
+      "description": "邊玩邊吃，延長進食時間。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "8c2d4f6b-1a7e-4c9a-9b31-5e0d3a2f1c99",
+      "toyName": "耐咬橡膠環",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "環狀設計，方便啃咬與拋玩。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "3f9d8a1c-2b6e-4e5a-9d21-7c0b4f8a2e00",
+      "toyName": "戶外繩結玩具",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "playStyle": [
+        "WALK",
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "適合戶外活動使用的耐用繩結玩具。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+      "toyName": "大型幼犬耐咬拉繩",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "playStyle": [
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "適合大中型幼犬的耐咬拉繩，材質安全耐用。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+      "toyName": "大型幼犬追逐球",
+      "petSize": [
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "playStyle": [
+        "WALK",
+        "BITE"
+      ],
+      "isActive": true,
+      "description": "大型犬專用追逐球，幼犬到成犬皆可使用。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    }
+  ],
+  "treats": [
+    {
+      "id": "ca99f802-e303-4389-8222-b09a6085d848",
+      "treatName": "雞肉小軟丁",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "ingredients": [
+        "CHICKEN",
+        "EGG"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST",
+        "TEETH"
+      ],
+      "isActive": true,
+      "description": "低負擔軟口感訓練零食，適合幼犬與牙口敏感毛孩。",
+      "createdAt": "2025-08-22T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "f1e74bb0-abc9-4da9-b649-d6fac63a09cc",
+      "treatName": "牛肉咬咬條",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "HARD",
+      "healthCare": [
+        "TEETH"
+      ],
+      "isActive": true,
+      "description": "耐咬條狀零食，適合愛咬咬與需要潔牙的成犬。",
+      "createdAt": "2025-07-23T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "3a186122-aa12-4010-803e-f406ae07f625",
+      "treatName": "魚肉皮毛亮亮點心",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "NORMAL",
+      "healthCare": [
+        "SKIN",
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "魚類蛋白提升皮毛健康，口感適中，適合多數體型。",
+      "createdAt": "2025-09-21T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "5eef3045-f72d-4e51-a091-bc0b27dfa1fa",
+      "treatName": "羊肉關節保健罐（小罐）",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "SHEEP"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "熟齡配方，偏軟口感，主打關節照護。",
+      "createdAt": "2025-10-06T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "2595b29e-6340-4b0d-85ac-09301ea0f52c",
+      "treatName": "腸胃呵護罐（小罐）",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "CHICKEN"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "腸胃友善配方，適合幼犬與熟齡犬。",
+      "createdAt": "2025-11-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "1d9f5c2b-6c2b-4dbe-bc0b-2b7f1e8a9a01",
+      "treatName": "南瓜益菌小餅",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "CHICKEN"
+      ],
+      "texture": "NORMAL",
+      "healthCare": [
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "添加南瓜纖維概念（示意），作為日常腸胃保養點心。",
+      "createdAt": "2025-12-05T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "b7c3b6d1-2a61-4b70-9b8e-2a4f2d1f1a10",
+      "treatName": "鮭魚低敏小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST",
+        "SKIN",
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "魚肉蛋白低負擔，軟口感好入口，做為日常腸胃/皮毛/體態保養。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "7d7b9d70-7f91-4f80-9f29-1a2b3c4d5e60",
+      "treatName": "牛肉潔牙小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "TEETH"
+      ],
+      "isActive": true,
+      "description": "牛肉蛋白補充，軟口感訓練零食，主打潔牙需求。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "a12d9c33-4a4f-4c7a-8c1a-3e3c2b1a0f11",
+      "treatName": "熟齡鮭魚護毛軟慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN",
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "熟齡配方，偏軟口感，皮毛與腸胃照護。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "0c2d7e89-1b61-4f7b-9a2b-6f4e3d2c1b0a",
+      "treatName": "熟齡牛肉腸胃軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST",
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "熟齡也能吃的軟口感，主打腸胃與體態需求。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "f4a3b2c1-d0e9-4f8a-9b7c-6d5e4f3a2b1c",
+      "treatName": "幼犬關節小慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "幼犬成長期的關節/骨骼概念補給，偏軟好入口。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "f3a0b9d1-2b3c-4d5e-9f01-1a2b3c4d5e6f",
+      "treatName": "幼犬大塊魚肉小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST",
+        "TEETH"
+      ],
+      "isActive": true,
+      "description": "幼犬可食的軟口感魚肉訓練零食。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "0a1b2c3d-4e5f-4a6b-8c7d-9e0f1a2b3c4d",
+      "treatName": "幼犬牛肉體態小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "幼犬也能吃的軟口感牛肉點心。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "1b2c3d4e-5f60-4b7a-9c8d-0e1f2a3b4c5d",
+      "treatName": "幼犬蛋黃鈣鈣小慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "EGG"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "JOINT",
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "幼犬成長期概念補給。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "2c3d4e5f-6071-4c8b-9d0e-1f2a3b4c5d6e",
+      "treatName": "熟齡魚肉護毛軟慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN"
+      ],
+      "isActive": true,
+      "description": "熟齡配方，偏軟口感。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "3d4e5f60-7182-4d9c-0e1f-2a3b4c5d6e7f",
+      "treatName": "熟齡牛肉潔牙小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "TEETH"
+      ],
+      "isActive": true,
+      "description": "熟齡也可食的軟口感潔牙點心。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "4e5f6071-8293-4e0f-1a2b-3c4d5e6f7081",
+      "treatName": "熟齡魚肉腸胃呵護小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "熟齡腸胃照護概念。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "5f607182-93a4-4f1a-2b3c-4d5e6f708192",
+      "treatName": "羊肉關節守護軟慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "SHEEP"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "全齡可用的關節/骨骼概念。",
+      "createdAt": "2026-02-10T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "e3a91c2b-4c7d-4e88-9d0a-7f2a1b3c9d01",
+      "treatName": "雞肉日常訓練小丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "ingredients": [
+        "CHICKEN"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "適合日常訓練使用的低負擔雞肉零食。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "4b6d2a91-8e53-4c42-bb9f-3f1e9a8d2c44",
+      "treatName": "牛肉能量補給軟丁",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "活動量較高毛孩的能量補給點心。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "9a3e7f21-6b1d-4a6e-bb21-2e7c1d4a9f88",
+      "treatName": "魚肉腸胃順順軟丁",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "魚類蛋白好吸收，腸胃敏感毛孩適用。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "b7c4d9e1-2a8f-4d93-8c12-9a1f2e7d4c55",
+      "treatName": "羊肉關節照護軟丁",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "SHEEP"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "熟齡毛孩日常關節保養概念。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "c9d7a2e4-8f21-4b3a-9e71-1d2f8c4a6b33",
+      "treatName": "雞肉潔牙小條",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "ingredients": [
+        "CHICKEN"
+      ],
+      "texture": "NORMAL",
+      "healthCare": [
+        "TEETH"
+      ],
+      "isActive": true,
+      "description": "搭配日常咀嚼的潔牙概念點心。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "7f2a6d91-4e83-4c1b-9a22-3d8c1b5e9f66",
+      "treatName": "熟齡魚肉護毛軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "SENIOR"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN"
+      ],
+      "isActive": true,
+      "description": "熟齡毛孩皮毛保養概念零食。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "1d8a4e72-9b3f-4c5e-8a21-6f2d9b7c3e10",
+      "treatName": "蛋香補鈣小慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "EGG"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "幼犬成長期骨骼補給概念。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "5c8f1e2a-7d94-4a6e-9b31-0f2d4a8c6e55",
+      "treatName": "牛肉日常軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "適合作為日常獎勵的牛肉零食。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "8a7d3c1e-2f94-4b8a-9d10-6e5c2f1b4a77",
+      "treatName": "魚肉低脂訓練小丁",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "ADULT"
+      ],
+      "ingredients": [
+        "FISH"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "WEIGHT"
+      ],
+      "isActive": true,
+      "description": "低脂魚肉配方，適合高頻訓練使用。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "2e9f7b4a-3c8d-4e6a-9f21-1d5c8b7a6e88",
+      "treatName": "全齡羊肉營養軟丁",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "SHEEP"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "全齡可食的羊肉蛋白補充點心。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "treatName": "雞肉護毛亮膚軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "ingredients": [
+        "CHICKEN"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN",
+        "DIGEST"
+      ],
+      "isActive": true,
+      "description": "雞肉蛋白配方，適合日常皮毛保養，低負擔軟口感。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "treatName": "牛肉皮毛守護軟慕斯（小罐）",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN"
+      ],
+      "isActive": true,
+      "description": "牛肉蛋白補充，偏軟口感，皮毛照護概念。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "treatName": "羊肉護毛亮膚小軟丁",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "ingredients": [
+        "SHEEP"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN",
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "羊肉蛋白全齡可用，同時兼顧皮毛與關節保養。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+      "treatName": "幼犬牛肉護毛小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "BEEF"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN"
+      ],
+      "isActive": true,
+      "description": "幼犬可食的牛肉蛋白，皮毛保養概念，軟口感易消化。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    },
+    {
+      "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+      "treatName": "幼犬羊肉護膚小軟丁",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY"
+      ],
+      "ingredients": [
+        "SHEEP"
+      ],
+      "texture": "SOFT",
+      "healthCare": [
+        "SKIN",
+        "JOINT"
+      ],
+      "isActive": true,
+      "description": "幼犬全體型可食，羊肉低敏蛋白，皮毛與關節雙重照護。",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null
+    }
+  ],
+  "household": [
+    {
+      "id": "bb629057-deae-4087-aae5-2503f45d3a54",
+      "itemName": "寵物濕紙巾｜日常清潔",
+      "category": "cleaning",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "外出擦拭腳掌與毛髮髒污。",
+      "imageUrl": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2025-07-13T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "outdoor",
+        "daily"
+      ]
+    },
+    {
+      "id": "9593910d-284e-4226-9eb0-9f4bc51f9a9f",
+      "itemName": "矽膠摺疊碗｜外出喝水",
+      "category": "outdoor",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "輕便可摺疊，適合散步與旅行補水。",
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-196fdf3a0a4b?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2025-10-11T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "walk",
+        "travel"
+      ]
+    },
+    {
+      "id": "64a30b15-3d65-4f8b-88de-900d2219a92b",
+      "itemName": "除毛梳｜換毛季必備",
+      "category": "grooming",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "幫助去除浮毛、減少打結。",
+      "imageUrl": "https://images.unsplash.com/photo-1612536057832-2ff7d07b2c15?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2025-06-13T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "hair",
+        "seasonal"
+      ]
+    },
+    {
+      "id": "7bfa4ef8-0c95-4111-916b-aa3b6bf6f8c8",
+      "itemName": "床墊套｜好清洗",
+      "category": "bedding",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "isActive": true,
+      "description": "可拆洗床墊套，維持睡眠區整潔。",
+      "imageUrl": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2025-03-15T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "home",
+        "washable"
+      ]
+    },
+    {
+      "id": "c3f8a9f1-0a9f-4b92-8b2a-77d0d4d9d3a5",
+      "itemName": "外出拾便袋｜環保補充包",
+      "category": "outdoor",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "日常散步必備，環保材質概念。",
+      "imageUrl": "https://images.unsplash.com/photo-1601758063095-3c66c1a0bb0f?auto=format&fit=crop&w=1200&q=80",
+      "createdAt": "2026-01-05T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "walk",
+        "daily"
+      ]
+    },
+    {
+      "id": "a1c2d3e4-5f60-4b7a-9c8d-0e1f2a3b4c51",
+      "itemName": "外出清潔濕紙巾｜便攜包",
+      "category": "cleaning",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "外出時快速擦拭腳掌與毛髮。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "outdoor",
+        "daily"
+      ]
+    },
+    {
+      "id": "b2c3d4e5-6f71-4c8b-9d0e-1f2a3b4c5d62",
+      "itemName": "寵物除臭噴霧｜日常用",
+      "category": "cleaning",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "日常環境與毛髮氣味清潔使用。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "home",
+        "daily"
+      ]
+    },
+    {
+      "id": "c3d4e5f6-7081-4d9c-0e1f-2a3b4c5d6e73",
+      "itemName": "外出拾便袋｜隨身包",
+      "category": "outdoor",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "日常散步外出必備拾便用品。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "walk",
+        "daily"
+      ]
+    },
+    {
+      "id": "d4e5f607-8192-4e0f-1a2b-3c4d5e6f7084",
+      "itemName": "矽膠折疊水碗｜外出用",
+      "category": "outdoor",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "可折疊設計，外出補水方便。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "travel",
+        "walk"
+      ]
+    },
+    {
+      "id": "e5f60718-92a3-4f1a-2b3c-4d5e6f708195",
+      "itemName": "換毛期除毛梳",
+      "category": "grooming",
+      "petSize": [
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "幫助去除浮毛，減少掉毛困擾。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "hair",
+        "seasonal"
+      ]
+    },
+    {
+      "id": "f6071829-a3b4-4f2b-3c4d-5e6f708192a6",
+      "itemName": "寵物指甲剪｜安全款",
+      "category": "grooming",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "日常修剪指甲使用，握感穩定。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "care",
+        "home"
+      ]
+    },
+    {
+      "id": "0718293a-b4c5-4a3c-4d5e-6f708192a7b7",
+      "itemName": "可拆洗床墊保潔墊",
+      "category": "bedding",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "isActive": true,
+      "description": "維持睡眠區清潔，方便清洗。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "home",
+        "washable"
+      ]
+    },
+    {
+      "id": "18293a4b-c5d6-4b4d-5e6f-708192a7b8c8",
+      "itemName": "外出牽繩｜輕量款",
+      "category": "outdoor",
+      "petSize": [
+        "S",
+        "M"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT"
+      ],
+      "isActive": true,
+      "description": "日常散步使用的輕量牽繩。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "walk",
+        "daily"
+      ]
+    },
+    {
+      "id": "293a4b5c-d6e7-4c5e-6f70-8192a7b8c9d9",
+      "itemName": "餐墊防滑墊｜居家用",
+      "category": "feeding",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "防止進食時碗滑動，保持地面整潔。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "home",
+        "feeding"
+      ]
+    },
+    {
+      "id": "3a4b5c6d-e7f8-4d6f-7081-92a7b8c9d0e0",
+      "itemName": "外出隨身收納袋",
+      "category": "outdoor",
+      "petSize": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dietStage": [
+        "PUPPY",
+        "ADULT",
+        "SENIOR"
+      ],
+      "isActive": true,
+      "description": "收納零食、拾便袋與小物。",
+      "imageUrl": "",
+      "createdAt": "2026-02-27T23:00:00+08:00",
+      "deletedAt": null,
+      "tags": [
+        "travel",
+        "outdoor"
+      ]
+    }
+  ],
+  "playStyle": [
+    {
+      "code": "IQ",
+      "label": "腦力激盪"
+    },
+    {
+      "code": "BITE",
+      "label": "愛玩愛咬"
+    },
+    {
+      "code": "WALK",
+      "label": "出門走走"
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "CHICKEN",
+      "label": "雞肉",
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "code": "BEEF",
+      "label": "牛肉",
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "code": "PORK",
+      "label": "豬肉",
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "code": "SHEEP",
+      "label": "羊肉",
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "code": "FISH",
+      "label": "魚肉",
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "code": "EGG",
+      "label": "蛋",
+      "tags": [
+        "protein"
+      ]
+    },
+    {
+      "code": "DAIRY",
+      "label": "乳製品",
+      "tags": [
+        "allergen"
+      ]
+    },
+    {
+      "code": "WHEAT",
+      "label": "小麥",
+      "tags": [
+        "grain",
+        "allergen"
+      ]
+    },
+    {
+      "code": "SOY",
+      "label": "黃豆",
+      "tags": [
+        "allergen"
+      ]
+    }
+  ],
+  "treatTexture": [
+    {
+      "code": "SOFT",
+      "label": "偏軟"
+    },
+    {
+      "code": "NORMAL",
+      "label": "一般"
+    },
+    {
+      "code": "HARD",
+      "label": "偏硬"
+    }
+  ],
+  "healthCare": [
+    {
+      "code": "BONES",
+      "label": "骨骼關節"
+    },
+    {
+      "code": "DIGEST",
+      "label": "腸胃消化"
+    },
+    {
+      "code": "SKIN",
+      "label": "皮膚毛髮"
+    },
+    {
+      "code": "TEETH",
+      "label": "口腔潔牙"
+    },
+    {
+      "code": "WEIGHT",
+      "label": "體重管理"
+    }
+  ],
+  "dietStage": [
+    {
+      "code": "PUPPY",
+      "label": "幼犬"
+    },
+    {
+      "code": "ADULT",
+      "label": "成犬"
+    },
+    {
+      "code": "SENIOR",
+      "label": "老犬"
+    }
+  ],
+  "size": [
+    {
+      "code": "S",
+      "label": "小型"
+    },
+    {
+      "code": "M",
+      "label": "中型"
+    },
+    {
+      "code": "L",
+      "label": "大型"
+    }
+  ],
+  "householdCategory": [
+    {
+      "code": "cleaning",
+      "label": "清潔用品"
+    },
+    {
+      "code": "outdoor",
+      "label": "外出用品"
+    },
+    {
+      "code": "grooming",
+      "label": "美容梳理"
+    },
+    {
+      "code": "bedding",
+      "label": "寢具用品"
+    },
+    {
+      "code": "feeding",
+      "label": "餵食用品"
+    }
+  ],
+  "householdTags": [
+    {
+      "code": "daily",
+      "label": "日常"
+    },
+    {
+      "code": "outdoor",
+      "label": "外出"
+    },
+    {
+      "code": "walk",
+      "label": "散步"
+    },
+    {
+      "code": "travel",
+      "label": "旅行"
+    },
+    {
+      "code": "home",
+      "label": "居家"
+    },
+    {
+      "code": "washable",
+      "label": "可清洗"
+    },
+    {
+      "code": "hair",
+      "label": "除毛"
+    },
+    {
+      "code": "seasonal",
+      "label": "換毛季"
+    },
+    {
+      "code": "care",
+      "label": "保養護理"
+    },
+    {
+      "code": "feeding",
+      "label": "進食"
+    }
+  ]
+}
